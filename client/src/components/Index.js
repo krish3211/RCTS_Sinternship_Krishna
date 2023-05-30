@@ -33,7 +33,7 @@ function Index() {
   };
 
   const onchange_age = (e) => {
-    if (e.target.value > 13 && e.target.value < 70) {
+    if (e.target.value > 5 && e.target.value < 90) {
       setNote({ ...note, [e.target.name]: e.target.value });
       setError(false);
     } else {
