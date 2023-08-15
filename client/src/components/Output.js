@@ -88,6 +88,7 @@ function Output() {
         setNames(data["Name"]);
         setAge((prevAge) => {
           prevAge.data = data["Age"];
+          console.log(data["Age"])
           return { ...prevAge };
         });
         setGender((prevGender) => {
