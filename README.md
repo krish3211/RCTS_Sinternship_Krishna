@@ -1,4 +1,4 @@
-# RCTS_Sinternship_Krishna
+# RCTS_Sinternship
 
 This project is a web application that allows users to ingest data through a form or an Excel sheet. The data is then stored in a database and can be subjected to various analytics using a Python script called via an API. The results of the analytics are also stored in the database and visualized in the front end.
 
